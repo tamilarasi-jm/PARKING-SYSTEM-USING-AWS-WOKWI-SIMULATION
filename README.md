@@ -29,3 +29,12 @@ ESP32 publishes MQTT message
 AWS IoT Core receives event
 Lambda processes logic
 DynamoDB updates parking status
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/8129960c-0a69-42a0-9b4f-b6343707d4e9" />
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/dfc68947-20e2-42f9-b91c-88a96557e225" />
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b8fb74dc-fea7-4911-b1f1-f08c49e6a6dd" />
+
+
+
