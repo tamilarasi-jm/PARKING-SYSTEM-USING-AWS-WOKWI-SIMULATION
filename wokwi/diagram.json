@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "author": "Smart Parking System",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "entryBtn",
+      "top": -51.4,
+      "left": 153.6,
+      "attrs": { "color": "green", "label": "ENTRY" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "exitBtn",
+      "top": 54.2,
+      "left": 153.6,
+      "attrs": { "color": "red", "label": "EXIT" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "entryBtn:1.l", "esp:D18", "green", [ "h0" ] ],
+    [ "exitBtn:1.l", "esp:D19", "green", [ "h0" ] ],
+    [ "entryBtn:2.l", "esp:GND.1", "green", [ "h0" ] ],
+    [ "exitBtn:2.l", "esp:GND.2", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
