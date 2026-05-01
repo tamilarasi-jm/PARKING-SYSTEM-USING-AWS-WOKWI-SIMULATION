@@ -7,6 +7,7 @@ This project simulates a real-time parking system using IoT and AWS cloud servic
 
 🧠 Architecture
 ESP32 → AWS IoT Core → Lambda → DynamoDB
+
 ⚙️ Technologies Used
 AWS IoT Core
 AWS Lambda
@@ -14,11 +15,14 @@ Amazon DynamoDB
 ESP32 (Wokwi Simulation)
 MQTT Protocol
 Arduino (C++)
+
 🔐 Features
 Secure communication using TLS certificates
 Real-time event processing
 Serverless backend (no servers used)
 Event-driven architecture
+
+
 📊 How it Works
 User presses ENTRY/EXIT button
 ESP32 publishes MQTT message
